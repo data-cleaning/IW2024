@@ -48,7 +48,7 @@ Assignment: build a data cleaning system.
 - MPJ van der Loo, E de Jonge (2021). _Data Validation Infrastructure for R_. Journal of Statistical Software 1--22 **97**. [pdf](https://markvanderloo.eu/files/share/loo2021data.pdf)
 - MPJ van der Loo, E de Jonge (2020). _Data Validation_. In Wiley StatsRef: Statistics Reference Online, pages 1-7. American Cancer Society. [pdf](https://markvanderloo.eu/files/share/loo2020data.pdf).
 - MPJ van der Loo (2021). _Monitoring data in R with the lumberjack package_. Journal of Statistical Software **98** 1--11. [pdf](https://markvanderloo.eu/files/share/loo2021monitoring.pdf)
-- M.P.J. van der Loo (2014). _The stringdist Package for Approximate String Matching_. The R Journal 6 111-122 [pdf](https://markvanderloo.eu/files/share/loo2014stringdist.pdf)
+- M.P.J. van der Loo (2014). _The stringdist Package for Approximate String Matching_. The R Journal **6** 111--122 [pdf](https://markvanderloo.eu/files/share/loo2014stringdist.pdf)
 
 ----
 ## License
