@@ -1,7 +1,8 @@
 
 ### Exercise 1
 
-1. Google 'Excel Disasters' and convince yourself never to use spreadsheets
+1. Read Paul Krugman's Column on the [Excel Depression](https://www.nytimes.com/2013/04/19/opinion/krugman-the-excel-depression.html).
+2. Google 'Excel Disasters' and convince yourself never to use spreadsheets
    for data _processing_.
 
 ### Exercise 2
