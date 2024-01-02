@@ -1,8 +1,9 @@
 
 ### Exercise 1
 
-Explain where in the value chain the following activities take place. Sometimes
-multiple options are possible. Explain why.
+Explain where in the statistical value chain the following activities take place. Sometimes
+multiple options are possible. Discuss each case within your group. It is important
+to explain the reason behind your choice.
 
 1. Formatting a date-time variable to ISO8601 format.
 2. Estimate the covariance between unemployment rate and age.
