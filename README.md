@@ -15,7 +15,7 @@ Deliverd by [Mark van der Loo](https://www.markvanderloo.eu)
 ### Day 1 (Mon 15 January 2024)
 
 - Processing data in production: the statistical value chain
-- Data Quality
+- Data Formats and Data Quality
 - Techniques for cleaning text data with R
 - Data validation with the [validate](https://cran.r-project.org/package=validate) R package.
 

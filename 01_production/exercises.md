@@ -1,6 +1,11 @@
 
 ### Exercise 1
 
+1. Google 'Excel Disasters' and convince yourself never to use spreadsheets
+   for data _processing_.
+
+### Exercise 2
+
 Explain where in the statistical value chain the following activities take place. Sometimes
 multiple options are possible. Discuss each case within your group. It is important
 to explain the reason behind your choice.
