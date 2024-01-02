@@ -1,4 +1,4 @@
-# IW2024
+# Statistical Data Cleaning with R
 Course material for a 3-day training course in data cleaning 
 during the 
 [International Week](https://fis.vse.cz/english/events/iweek/)
@@ -39,6 +39,15 @@ Assignment: build a data cleaning system.
 - Grades will be based on presentations of the system.
 
 
+## Extra Materials
+
+- MPJ van der Loo and De Jonge, E (2018) _Statistical Data Cleaning with Applications in R_.
+  John Wiley & Sons [link](https://www.wiley.com/en-us/Statistical+Data+Cleaning+with+Applications+in+R-p-9781118897157)
+- T de Waal, Pannekoek, J and Scholtus, S (2011) _Handbook of Statistical Data Editing and Imputation_. John Wiley & Sons. [link](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470904848)
+- MPJ van der Loo, E de Jonge (2021). _Data Validation Infrastructure for R_. Journal of Statistical Software 1--22 **97**. [pdf](https://markvanderloo.eu/files/share/loo2021data.pdf)
+- MPJ van der Loo, E de Jonge (2020). _Data Validation_. In Wiley StatsRef: Statistics Reference Online, pages 1-7. American Cancer Society. [pdf](https://markvanderloo.eu/files/share/loo2020data.pdf).
+- MPJ van der Loo (2021). _Monitoring data in R with the lumberjack package_. Journal of Statistical Software **98** 1--11. [pdf](https://markvanderloo.eu/files/share/loo2021monitoring.pdf)
+- M.P.J. van der Loo (2014). _The stringdist Package for Approximate String Matching_. The R Journal 6 111-122 [pdf](https://markvanderloo.eu/files/share/loo2014stringdist.pdf)
 
 ----
 ## License
