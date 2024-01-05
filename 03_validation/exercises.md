@@ -50,13 +50,15 @@ $$
 
 In January 2024, we ask the two Dutch citizens Alice and Bob:
 
-1. $X$: Do you have a job? (\texttt{yes}, \texttt{no})
-2. $Y$: What is your age? (\texttt{under-aged}, \texttt{adult}, \texttt{retired})
+1. $X$: Do you have a job? (`yes`, `no`)
+2. $Y$: What is your age? (`under-aged`, `adult`, `retired`)
 
 Questions:
 
-1. Describe $D$
-2. Give all values of $k$ (this constitutes $K$)
+1. Describe the domain $D$. Assume that answers may be swapped.
+2. Give all values of $k$ (this constitutes the set of keys $K$)
 3. How many data sets are possible?
-
+    - Without any rules
+    - Taking into account that $X\in\{\texttt{yes}, \texttt{no}\}$
+    - Also taking into account that $\texttt{IF} job==yes \texttt{THEN} age == \texttt{adult}$
 
