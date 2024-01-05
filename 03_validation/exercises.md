@@ -45,13 +45,13 @@ $$
 - $I$: Gross private domestic investment
 - $X-M$: Export minus Imports of goods and services
 
-### Exercise 5:
+### Exercise 5: Valid datasets
 
 
 In January 2024, we ask the two Dutch citizens Alice and Bob:
 
 1. $X$: Do you have a job? $\lbrace \texttt{yes}, \texttt{no}\rbrace$
-2. $Y$: What is your age? $\lbrace \texttt{under-aged}, \texttt{adult}, \textt{retired}\rbrace$
+2. $Y$: What is your age? $\lbrace \texttt{under-aged}, \texttt{adult}, \texttt{retired}\rbrace$
 
 Questions:
 
