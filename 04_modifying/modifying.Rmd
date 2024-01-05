@@ -1,0 +1,80 @@
+---
+title: "Rule-based data modification"
+author: "Mark van der Loo"
+output:
+  beamer_presentation:
+    latex_engine: xelatex
+    includes:
+      in_header: ../00tex/presheader.tex
+classoption: "aspectratio=169"
+---
+
+
+## Rule-based data modification
+
+$\;$
+
+### Why?
+
+- Up to 50% of all fixed data cells, are made by domain experts on ad-hoc basis.
+- Often these fixes are done manually, or hard-coded into script
+
+### Approach
+
+Externalize the data modification rules so they can be 
+
+- Documented
+- Maintained (version control)
+- Discussed, reviewed
+- Programmed over (CRUD)
+
+
+
+## Data modification with `dcmodify`
+
+
+### Concept
+
+Domain experts 'think' in rules of the form
+
+```
+IF ( CONDITION ) THEN
+  SET X to x
+  SET Y to y
+  .
+  .
+END IF
+```
+
+
+## Example in `dcmodify`
+
+```{r}
+data(SBS2000, package='validate')
+library(dcmodify)
+
+m <- modifier(
+    if (is.na(other.rev)) other.rev <- 0
+  , if (staff.costs / staff > 5000) staff.costs <- staff.costs/1000
+)
+
+out <- modify(SBS2000, m)
+```
+
+### Some `dcmodify` facilities
+
+- Read rules from files (`.file="rulefile.R"`)
+- Nested conditions
+- Add a logger to track data changes rule-by-rule
+
+
+
+
+
+
+
+
+
+
+
+
