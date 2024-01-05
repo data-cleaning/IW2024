@@ -1,7 +1,7 @@
 ## Adjusting values under constraints
 # Statistical Data Cleaning
 # Mark van der Loo and Edwin de Jonge
-# UFPEL2019
+# I-Week, Prague
 
 library(rspa)
 library(validate)
