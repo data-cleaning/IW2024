@@ -59,6 +59,6 @@ Questions:
 2. Give all values of $k$ (this constitutes the set of keys $K$)
 3. How many data sets are possible?
     - Without any rules
-    - Taking into account that $X\in\{\texttt{yes}, \texttt{no}\}$
-    - Also taking into account that $\texttt{IF} job==yes \texttt{THEN} age == \texttt{adult}$
+    - Taking into account that $X\in \{\texttt{yes}, \texttt{no}\}$
+    - Also taking into account that $\texttt{IF } job==yes \texttt{ THEN } age == \texttt{adult}$
 
