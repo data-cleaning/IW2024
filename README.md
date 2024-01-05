@@ -22,7 +22,6 @@ Deliverd by [Mark van der Loo](https://www.markvanderloo.eu)
 
 ### Day 2 (Tue 16 January 2024)
 
-- Techniques for deductive correction
 - Rule-based data cleaning with R package [dcmodify](https://cran.r-project.org/package=dcmodify)
 - Error localization with R package [errorlocate](https://cran.r-project.org/package=errorlocate)
 - Imputation with R package [simputation](https://cran.r-project.org/package=simputation)
