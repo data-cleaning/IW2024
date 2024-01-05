@@ -48,7 +48,7 @@ $$
 ### Exercise 5:
 
 
-In September 2018 we ask the two Dutch citizens \textbf{A}lice and \textbf{B}ob:
+In January 2024, we ask the two Dutch citizens Alice and Bob:
 
 1. $X$: Do you have a job? (\texttt{yes}, \texttt{no})
 2. $Y$: What is your age? (\texttt{under-aged}, \texttt{adult}, \texttt{retired})
