@@ -50,8 +50,8 @@ $$
 
 In January 2024, we ask the two Dutch citizens Alice and Bob:
 
-1. $X$: Do you have a job? (`yes`, `no`)
-2. $Y$: What is your age? (`under-aged`, `adult`, `retired`)
+1. $X$: Do you have a job? $\lbrace \texttt{yes}, \texttt{no}\rbrace$
+2. $Y$: What is your age? $\lbrace \texttt{under-aged}, \texttt{adult}, \textt{retired}\rbrace$
 
 Questions:
 
