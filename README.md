@@ -14,8 +14,8 @@ Deliverd by [Mark van der Loo](https://www.markvanderloo.eu)
 
 ### Day 1 (Mon 15 January 2024)
 
+- Data Quality
 - Processing data in production: the statistical value chain
-- Data Formats and Data Quality
 - Techniques for cleaning text data with R
 - Data validation with the [validate](https://cran.r-project.org/package=validate) R package.
 
@@ -41,6 +41,7 @@ Assignment: build a data cleaning system.
 
 ## Extra Materials
 
+- Quality Assurance Framework of the European Statistical System [pdf](https://ec.europa.eu/eurostat/documents/64157/4392716/ESS-QAF-V1-2final.pdf/bbf5970c-1adf-46c8-afc3-58ce177a0646).
 - T de Waal, Pannekoek, J and Scholtus, S (2011) _Handbook of Statistical Data Editing and Imputation_. John Wiley & Sons. [link](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470904848)
 - MPJ van der Loo and De Jonge, E (2018) _Statistical Data Cleaning with Applications in R_.
   John Wiley & Sons [link](https://www.wiley.com/en-us/Statistical+Data+Cleaning+with+Applications+in+R-p-9781118897157)

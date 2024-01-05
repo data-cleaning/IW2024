@@ -9,6 +9,180 @@ output:
 classoption: "aspectratio=169"
 ---
 
+# Introduction: Official Statistics
+
+## Statistics Netherlands
+
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[height=3cm]{fig/cbsdh.jpg}&
+\includegraphics[height=3cm]{fig/cbsh.jpg}
+\end{tabular}
+\end{center}
+
+
+- 2 offices in the Netherlands
+- 1700 FTE
+- 3500 tables/year
+    - Labour and income
+    - Economy
+    - Society (including decennial census)
+    - Cross-cutting issues
+
+
+
+## Data Quality 
+
+\note{
+Add slido QR and number.
+Question: name aspects of data quality.
+}
+
+
+## Quality aspects of Statistical Output
+
+1. Relevance
+2. Accuracy and Reliability
+3. Timeliness and Punctuality
+4. Coherence and Comparability
+5. Accessibility
+
+\note{Slido Questions: how would you measure this?}
+
+
+## Quality aspects of Statistical Output
+
+1. Relevance
+2. **Accuracy and Reliability**
+3. Timeliness and Punctuality
+4. **Coherence and Comparability**
+5. Accessibility
+
+
+
+
+# The Statistical Value Chain
+
+
+## Value Chains
+
+### Porter's value chain (1985)
+
+_The idea of the value chain is based on the process view of organizations, the idea of seeing a manufacturing (or service) organization as a system, made up of subsystems each with inputs, transformation processes and outputs._
+
+
+## Statistical Value Chain
+
+\begin{center}
+\includegraphics[height=3cm]{fig/valuechain.pdf}
+\end{center}
+
+
+### Notes
+
+- This part only pertains to the data processing stage. Collection, design of
+experiments, dissemination of results, and so on are not included.
+- The fixed points (half-fabricates) are well-defined statistical products.
+
+
+## Raw data
+
+\begin{center}
+\includegraphics[height=15mm]{fig/vc_raw.pdf}
+\end{center}
+
+### Data as it arrives
+
+- Survey (measurement)
+- Administrative data (observation)
+- Big/Sensor/Web data (observation)
+
+
+## Input data
+
+\begin{center}
+\includegraphics[height=15mm]{fig/vc_input.pdf}
+\end{center}
+
+### Technically 'clean' data
+
+- File type is known and can be read
+- Data structured for analyses
+- Variables are of correct type (number/date/text/categorical$\ldots$)
+- Records identified with statistical objects
+- Variables identified with statistical properties
+
+### Rule of thumb
+
+You can read this data into your favorite analyses tool,
+without errors, with a single expression.
+
+
+## Valid data
+
+\begin{center}
+\includegraphics[height=15mm]{fig/vc_valid.pdf}
+\end{center}
+
+
+### Satisfy domain knowledge constraints
+
+- The last update can not be in the future
+- Full professorship under 24 is highly unlikely
+- More than $n$ papers/year is unlikely (depending on field)
+- $...$
+    
+### Justification
+
+Invalid data leads to invalid statistical results. 
+
+
+## Statistics
+
+
+\begin{center}
+\includegraphics[height=15mm]{fig/vc_statistics.pdf}
+\end{center}
+
+###  Target output values (aggregates) 
+
+- The resulting numbers for publication
+
+### Note
+
+- These also need to satisfy domain knowledge constraints.
+
+
+
+## Output
+
+\begin{center}
+\includegraphics[height=15mm]{fig/vc_format.pdf}
+\end{center}
+
+### 
+
+- Formatted, annotated
+- Data possibly treated with anonymization techniques (SDC = statistical
+  disclosure control)
+
+
+
+## The SVC: Remarks
+
+\begin{center}
+\includegraphics[height=30mm]{fig/valuechain.pdf}
+\end{center}
+
+- Actual data processing is not linear, you will go round a few times.
+    - Build up the SVC as your research project progresses.
+- Add or remove stages as needed.
+- This general idea scales really well.
+
+
+
+# From Raw to Input 1: Data Format
+
 
 ##  What a user of data wants
 
@@ -231,29 +405,15 @@ $\downarrow$
 \end{picture}
 
 
-## Why choosing the right tool is important (NYT, 2013)
+## Not all data is 'simple rectangular'
 
-\begin{center}
-\includegraphics[height=0.7\textheight]{fig/excel2.png}
-\end{center}
+\begin{picture}(0,0)
+\put(0,0){\includegraphics[height=3cm]{fig/nsnet.pdf}}
+\put(100,-25){\includegraphics[height=3cm]{fig/timeseries.png}}
+\put(200,-50){\includegraphics[height=3cm]{fig/bdichtheid.png}}
+\put(300,-75){\includegraphics[height=2cm]{fig/image.jpg}}
 
-\note{
-Reinhart-Rogoff error
-}
-
-## Why choosing the right tool is important (Nature, 2019)
-
-\begin{center}
-\includegraphics[height=0.7\textheight]{fig/excel3.png}
-\end{center}
-
-
-
-## Why choosing the right tool is important (Science, 2016)
-
-\begin{center}
-\includegraphics[height=0.7\textheight]{fig/excel1.png}
-\end{center}
-
-\hfill\tiny Ziemann, Eren, El-Osta \textit{Genome Biology} \textbf{17} 177 (2016)\phantom{MMMMMMMMMMMM}
+\put(0,-95){\begin{minipage}{0.8\textwidth}Each data type consists of particular basic elements and is
+manipulated\\ with particular basic operations.\end{minipage}}
+\end{picture}
 
