@@ -1,5 +1,5 @@
 
-### Exercise 1
+### Exercise 1: price sensibility
 
 What is the $U\tau uX$ $s$ingle/$m$ulti classification of the following rule?
 
@@ -7,7 +7,7 @@ $$
 \textrm{mean}(price) \geq 1  
 $$
 
-### Exercise 2
+### Exercise 2: Bounds on inflation
 
 What is the $U\tau uX$ $s$ingle/$m$ulti classification of the following rule?
 
@@ -15,7 +15,7 @@ $$
 \frac{\textrm{mean}(price_{2018})}{\textrm{mean}(price_{2017})} \leq 1.1  
 $$
 
-### Exercise 3
+### Exercise 3: Hiridhogou-Berthelot outlier detection
 
 What is the $U\tau uX$ $s$ingle/$m$ulti classification of the following rule?
 
@@ -25,13 +25,14 @@ $$
 \right) < 10
 $$
 
-### Exercise 4
+### Exercise 4: Fundamental Equation of National Accounts
 
 What is the $U\tau uX$ $s$ingle/$m$ulti classification of the following rule?
 
+Income must equal expenditure:
+
 $$
-\underbrace{COE + GOS + GMI + T_{PM} - S_{PM}}_{\textrm{GDP, Income approach}} = 
-\underbrace{C + G + I + (X - M)}_{\textrm{GDP, expenditure approach}}
+COE + GOS + GMI + T_{PM} - S_{PM} =  C + G + I + (X - M)
 $$
 
 
