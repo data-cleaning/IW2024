@@ -16,11 +16,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Execute the example
  
-1. Download `TODO: https://github.com/data-cleaning/datacleaning.zip`
-2. Unzip
-3. Open `datacleaning.Rproj` with RStudio
-4. Open `02input/json_cleanup.R`
-5. Execute step-by-step; discuss and answer questions in between.
+1. Open `datacleaning.Rproj` with RStudio
+2. Open `02input/json_cleanup.R`
+3. Execute step-by-step; discuss and answer questions in between.
 
 
 ## Reading Dirty Data

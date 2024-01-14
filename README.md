@@ -10,6 +10,8 @@ Deliverd by [Mark van der Loo](https://www.markvanderloo.eu)
 
 ---
 
+**To get started: [download the zipfile with materials](https://www.markvanderloo.eu/files/IW2024.zip) and unzip.**
+
 ## Course overview
 
 ### Day 1 (Mon 15 January 2024)
