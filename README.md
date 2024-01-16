@@ -37,7 +37,12 @@ Assignment: build a data cleaning system.
 
 - Teams will spent one part of the day building a small production system that 
   cleans a data set (to be provided) and estimates statistics.
-- Grades will be based on presentations of the system.
+- Groups can download their individual data and assignments here:
+    - [group01]{https://www.markvanderloo.eu/files/group01.zip}
+    - [group02]{https://www.markvanderloo.eu/files/group02.zip}
+    - [group03]{https://www.markvanderloo.eu/files/group03.zip}
+    - [group04]{https://www.markvanderloo.eu/files/group04.zip}
+    - [group05]{https://www.markvanderloo.eu/files/group05.zip}
 
 
 ## Extra Materials
