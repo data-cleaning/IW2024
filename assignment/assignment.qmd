@@ -1,0 +1,53 @@
+---
+title: "Create a Data Cleaning System"
+format: pdf
+---
+
+### Task
+
+During this assignment you are going to build a small system that cleans data and produces statistics
+automatically.
+
+Each group will have its own synthetic data set. 
+
+The data set contains financial and economic data on companies. We are
+interested in publishing the average turnover from industrial activities,
+turnover from trade, and operating result, by 3-digit NACE code (the first three
+digits of the NACE variable). You can use e.g. `dplyr::summarise` to compute the
+results.
+
+You will build a set of scripts that cleans the raw data and estimates the desired quantities.
+
+In the afternoon each group will share its results by presenting their system.
+This may be a Powerpoint presentation but you can also just show the scripts and
+talk through it. 
+
+
+### Tips
+
+- Look at the data. Make plots, discuss amongst each other what can be wrong with it, and how it might
+  be solved. Don't try to solve everything at once. Solve one problem at the time.
+- Start by doing the estimates. They will be way off, but it is good to have a first result and see
+the effect of updates to the data cleaning process.
+- It is better to have simple code that runs than complicated code that doesn't. Start small, make sure it runs and then
+expand.
+- Use one script for each step in the statistical value chain. Each script reads an input, does something to the data, and writes an output.
+- Define rules to check the quality of the data. Also here: work iteratively. Start with a few rules
+  and adapt the ruleset iteratively.
+- Iterate often, view the data and the results often.
+- Make plots of the data: are there outliers? Also think about ratios between variables.
+- Impute the missing values. Try a few models.
+
+
+
+### The data
+
+
+The financial variabeles have to satisfy the following balance restrictions. You can think of extra 
+restrictions as you deem fit.
+\begin{center}
+\includegraphics[width=\textwidth]{balances.pdf}
+\end{center}
+
+
+
